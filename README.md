@@ -25,6 +25,7 @@ A simple weather react app which shows weather and forecast details depending on
 - Open the project in preferred editor.
 - Install all dependencies using npm install.
 - Now run npm install.
+- Get your API key from OpenWeatherAPI.
 - Open your brower and go to http://localhost:5173.
 
 
