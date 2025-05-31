@@ -4,7 +4,7 @@ import TemperatureDetails from "./TemperatureDetails"
 import TimeAndPlace from "./TimeAndPlace"
 import { getWeatherData } from "../utils/services";
 import { useState, useEffect } from "react";
-import  loading  from "../public/loading.gif"
+import  loading  from "../../public/loading.gif"
 import { bgImg } from "../utils/bgs";
 
 function Weather()
