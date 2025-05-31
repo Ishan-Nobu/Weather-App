@@ -5,75 +5,75 @@ export const bgImg = (icon) => {
     switch (icon) 
     {
         case "01d":       // clear sky day
-            bgPath = "public/weatherImages/clearsky.jpg";
+            bgPath = "public/clearsky.jpg";
             break;
 
         case "01n":      //clear sky night
-            bgPath = "public/weatherImages/clearskynight.jpg";
+            bgPath = "public/clearskynight.jpg";
             break;
 
         case "02d":     // few clouds day
-            bgPath = "public/weatherImages/fewclouds.jpg";
+            bgPath = "public/fewclouds.jpg";
             break;
 
         case "02n":     // few clouds night
-            bgPath = "public/weatherImages/fewcloudsnight.jpg";
+            bgPath = "public/fewcloudsnight.jpg";
             break;
 
         case "03d":     // scattered clouds  // white clouds
-            bgPath = "public/weatherImages/scatteredclouds.jpg";
+            bgPath = "public/scatteredclouds.jpg";
             break;
 
         case "03n":     // scattered clouds  // white clouds
-            bgPath = "public/weatherImages/scatteredclouds.jpg";
+            bgPath = "public/scatteredclouds.jpg";
             break;
 
         case "04d":     // broken clouds   // black clouds
-            bgPath = "public/weatherImages/brokenclouds.jpg";
+            bgPath = "public/brokenclouds.jpg";
             break;
         
         case "04n":     // broken clouds  //black clouds
-            bgPath = "public/weatherImages/brokenclouds.jpg";
+            bgPath = "public/brokenclouds.jpg";
             break;
 
         case "09d":     // rain
-            bgPath = "public/weatherImages/rain.jpg"; 
+            bgPath = "public/rain.jpg"; 
             break;
 
         case "09n":     // rain
-            bgPath = "public/weatherImages/rain.jpg"; 
+            bgPath = "public/rain.jpg"; 
             break;
 
         case "10d":     // rain
-            bgPath = "public/weatherImages/rain.jpg";
+            bgPath = "public/rain.jpg";
             break;
 
         case "10n":     // rain
-            bgPath = "public/weatherImages/rain.jpg";
+            bgPath = "public/rain.jpg";
             break;
 
         case "11d":     // thunderstorm
-            bgPath = "public/weatherImages/thunderstorm.jpg";
+            bgPath = "public/thunderstorm.jpg";
             break;
 
         case "11n":     // thunderstorm
-            bgPath = "public/weatherImages/thunderstorm.jpg";
+            bgPath = "public/thunderstorm.jpg";
             break;
 
         case "13d":      // snow
-            bgPath = "public/weatherImages/snow.jpg";
+            bgPath = "public/snow.jpg";
             break;
 
         case "13n":      // snow
-            bgPath = "public/weatherImages/snow.jpg";
+            bgPath = "public/snow.jpg";
             break;
         
         case "50d":      // mist & haze
-            bgPath = "public/weatherImages/mist.jpg";
+            bgPath = "public/mist.jpg";
             break;
 
         case "50n":      // mist & haze
-            bgPath = "public/weatherImages/mist.jpg";
+            bgPath = "public/mist.jpg";
             break;
 
         default:
