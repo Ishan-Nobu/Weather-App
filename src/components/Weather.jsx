@@ -4,7 +4,6 @@ import TemperatureDetails from "./TemperatureDetails"
 import TimeAndPlace from "./TimeAndPlace"
 import { getWeatherData } from "../utils/services";
 import { useState, useEffect } from "react";
-import  loading  from "../../public/loading.gif"
 import { bgImg } from "../utils/bgs";
 
 function Weather()
@@ -42,7 +41,7 @@ function Weather()
                         {
                             weatherData.loading &&
                             (
-                                <img src={loading} alt="" className="ml-90 mt-30 size-70"/>
+                                <img src="loading.gif" alt="" className="ml-90 mt-30 size-70"/>
                             )
                         }
                         {
