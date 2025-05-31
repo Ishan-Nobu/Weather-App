@@ -5,23 +5,23 @@ export const bgImg = (icon) => {
     switch (icon) 
     {
         case "01d":       // clear sky day
-            bgPath = "src/assets/weatherImages/clearsky.jpg";
+            bgPath = ".src/assets/weatherImages/clearsky.jpg";
             break;
 
         case "01n":      //clear sky night
-            bgPath = "src/assets/weatherImages/clearskynight.jpg";
+            bgPath = ".src/assets/weatherImages/clearskynight.jpg";
             break;
 
         case "02d":     // few clouds day
-            bgPath = "src/assets/weatherImages/fewclouds.jpg";
+            bgPath = ".src/assets/weatherImages/fewclouds.jpg";
             break;
 
         case "02n":     // few clouds night
-            bgPath = "src/assets/weatherImages/fewcloudsnight.jpg";
+            bgPath = ".src/assets/weatherImages/fewcloudsnight.jpg";
             break;
 
         case "03d":     // scattered clouds  // white clouds
-            bgPath = "src/assets/weatherImages/scatteredclouds.jpg";
+            bgPath = ".src/assets/weatherImages/scatteredclouds.jpg";
             break;
 
         case "03n":     // scattered clouds  // white clouds
@@ -29,11 +29,11 @@ export const bgImg = (icon) => {
             break;
 
         case "04d":     // broken clouds   // black clouds
-            bgPath = "src/assets/weatherImages/brokenclouds.jpg";
+            bgPath = ".src/assets/weatherImages/brokenclouds.jpg";
             break;
         
         case "04n":     // broken clouds  //black clouds
-            bgPath = "src/assets/weatherImages/brokenclouds.jpg";
+            bgPath = ".src/assets/weatherImages/brokenclouds.jpg";
             break;
 
         case "09d":     // rain
