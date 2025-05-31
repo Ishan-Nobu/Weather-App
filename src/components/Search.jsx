@@ -1,5 +1,4 @@
 import { FaSearch } from "react-icons/fa";
-import { FaLocationCrosshairs } from "react-icons/fa6";
 
 function Search( { search, searchValue, setSearchValue} ) 
 {   
