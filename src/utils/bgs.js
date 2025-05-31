@@ -29,11 +29,11 @@ export const bgImg = (icon) => {
             break;
 
         case "04d":     // broken clouds   // black clouds
-            bgPath = ".src/assets/weatherImages/brokenclouds.jpg";
+            bgPath = "../assets/weatherImages/brokenclouds.jpg";
             break;
         
         case "04n":     // broken clouds  //black clouds
-            bgPath = ".src/assets/weatherImages/brokenclouds.jpg";
+            bgPath = "../assets/weatherImages/brokenclouds.jpg";
             break;
 
         case "09d":     // rain
