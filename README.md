@@ -2,6 +2,8 @@
 A simple weather react app which shows weather and forecast details depending on the search result built using React, [OpenWeatherAPI](https://openweathermap.org/api) and [TailwindCSS](https://tailwindcss.com/).
 
 ## Links
+[Live Build](https://web-weather-checker.netlify.app/)
+
 [Repo](https://github.com/Ishan-Nobu/Weather-App)
 
 ## Screenshots
