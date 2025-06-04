@@ -33,9 +33,9 @@ function Weather()
 
     return (
         <>
-            <div className="min-h-screen m-0 pt-10 bg-no-repeat bg-cover bg-fixed bg-center" 
+            <div className="min-h-screen m-0 pt-10 bg-no-repeat bg-cover " 
                 style={{backgroundImage: `url(${bgImg(weatherData.data.weather?.[0]?.icon)})`}}>
-                <div className="max-w-screen-lg m-auto p-5 rounded-md bg-linear-to-b from-cyan-100/85 to-cyan-400/85 shadow-xl shadow-gray-400"> 
+                <div className="max-w-screen-lg md:m-auto m-5 mt-25 p-5 rounded-md bg-linear-to-b from-cyan-100/85 to-cyan-400/85 shadow-xl shadow-gray-400"> 
                     <div>
                         <Search search={search} searchValue={searchValue} setSearchValue={setSearchValue}/>
                         {

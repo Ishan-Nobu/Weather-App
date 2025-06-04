@@ -46,7 +46,7 @@ function Forecast( { forecastData })
             <div className="flex items-centre justify-start ml-25 mt-10">
                 <h3 className="text-lg uppercase font-bold">24-hour Forecast</h3>
             </div>
-            <div className="flex items-centre justify-between mx-25 mt-5 p-4">
+            <div className="flex flex-row items-centre justify-center md:mx-25 mt-5 p-4 gap-5 md:gap-15">
                 {
                     forecastDetails.map(({ id, day, icon, min_temp, max_temp }) => (
                         <div key={id} className="flex flex-col items-center justify-center">
